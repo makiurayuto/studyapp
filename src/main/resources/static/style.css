@@ -1,0 +1,114 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    background: linear-gradient(90deg, #4CAF50, #2E7D32);
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* フォーム */
+form {
+    margin: 20px auto;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* 通常ボタン */
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+
+    /* hoverアニメーション */
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #2e7d32;
+    transform: scale(1.05);
+}
+
+/* 削除ボタン */
+.delete-btn {
+    background-color: #e53935;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+/* リスト */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: white;
+    margin: 10px auto;
+    padding: 12px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* hoverアニメーション */
+    transition: all 0.2s ease;
+}
+
+li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+.delete-btn {
+    background-color: #e53935;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+.chart-container {
+    width: 500px;
+    height: 300px;
+}
+.fc-event {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.fc-event:hover {
+    transform: scale(1.03);
+}
+.fc-event {
+    transition: 0.2s;
+}
+
+.fc-event:hover {
+    transform: scale(1.05);
+}
+.fc-event {
+    color: white;
+    font-weight: bold;
+}
+
