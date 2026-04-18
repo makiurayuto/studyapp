@@ -43,12 +43,14 @@
 
 ### バックエンド
 
-* Java / Spring Boot
-* REST API設計
+* Java 17
+* Spring Boot 3.5.13
+* Maven Wrapper（mvnw使用）
+* REST API（設計・実装）
 
 ### フロントエンド
 
-* HTML / CSS / JavaScript
+* HTML / CSS / JavaScript（フロントエンド）
 * FullCalendar（カレンダーUI）
 * Chart.js（データ可視化）
 
