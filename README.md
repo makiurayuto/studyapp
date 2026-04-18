@@ -134,7 +134,7 @@ cd study-tracker
 ```
 
 ```bash
-mvn spring-boot:run
+./mvnw spring-boot:run
 ```
 
 👉 http://localhost:8080
